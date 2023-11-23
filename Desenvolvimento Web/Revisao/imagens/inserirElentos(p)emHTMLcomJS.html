@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+</head>
+<body>
+    <p>Eu sou o Batman</p>
+    <script>
+        var novoParagrafo = document.createElement("p");
+
+        var texto = document.createTextNode("Corinthians");
+
+        novoParagrafo.appendChild(texto);
+
+        var body = document.querySelector("body");
+
+        body.appendChild(texto);
+
+    </script>
+</body>
+</html>

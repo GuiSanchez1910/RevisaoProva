@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flex</title>
+</head>
+<style>
+    .conteiner{
+        border: solid darkred;
+        border-radius: 5px;
+        display:flex;
+        height: 100%;
+        width: 640px;
+        height:480px;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    p{
+        border: solid black;
+        background-color: aqua;
+        width: 120px;
+        height: 120px;
+        display: flex;;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* Deixar centralizado na pagina inteira */
+        height:100vh;
+        /* tirar margin e barra de rolagem */
+        margin: 0;
+    }
+</style>
+<body>
+    <div class="conteiner">
+        <p>Eu sou o Batman</p>
+        <p>Eu sou o Batman</p>
+        <p>Eu sou o Batman</p>
+    </div>
+    
+</body>
+</html>

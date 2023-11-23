@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>Grid</title>
+    <style>
+        .conteiner{
+            background-color:darkred;
+            border:1px solid black;
+            padding: 15px;
+            display:grid;
+            /*Quantidade de blocos na horizontal*/
+            grid-template-columns: 50px auto 10%;
+            height:25vh;
+            /*Altera tamanho vertical */
+            grid-template-rows: 70% 30%;
+            /*Espacamento entre blocos */
+            gap: 5px;
+            grid-row-gap: 10px; /*linhas*/
+            grid-column-gap: 50px; /*Colunas */
+        } 
+
+        .conteiner div{
+            background-color: white;
+            padding: 20px;
+            border: 1px solid blue;
+        }          
+    </style>
+</head>
+<body>
+    <!-- Grid Iniicio -->
+    <div class="conteiner">   
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+</body> 
+</html>
